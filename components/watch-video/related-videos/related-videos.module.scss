@@ -12,8 +12,7 @@
 .videoItem {
     display: flex;
     width: 100%;
-border-radius: 20px;
-overflow: hidden;
+
     &__thumbnail {
         min-width: var(--yt-related-thumbnail-width);
         height: 94px;
