@@ -2,12 +2,11 @@
   "name": "youtube-webapp-next",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --port=4200",
-    "build": "next build",
-    "start": "next start --port=4200",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",

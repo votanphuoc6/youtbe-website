@@ -55,32 +55,6 @@ export default function NavHeader() {
         }
     };
 
-
-
-    // const inputChangeHandler = async (option: IYoutubeSearchItem | string): Promise<void> => {
-    //     if (typeof option === 'string' && option.trim() !== '') {
-    //         try {
-    //             // Gọi API tìm kiếm với từ khóa người dùng nhập
-    //             const response = await axios.get(`https://giataicuachaapi.azurewebsites.net/api/Videos/search?keyword=${option}`);
-    //             const searchResults = response.data;
-    
-    //             // Kiểm tra nếu có kết quả trả về
-    //             if (searchResults && searchResults.videos.length > 0) {
-    //                 console.log(searchResults);
-    //                 // Điều hướng đến video đầu tiên trong kết quả tìm kiếm
-    //                 router.push(`/watch?v=${searchResults.videos[0].id}`);
-    //             } else {
-    //                 // Nếu không có kết quả, dispatch để lưu từ khóa tìm kiếm
-    //                 dispatch(setVideoSearchQuery(option));
-    //             }
-    //         } catch (error) {
-    //             console.error("Error fetching search results:", error);
-    //         }
-    //     } else if (typeof option === 'object') {
-    //         console.log(option);
-    //         router.push(`/watch?v=${option?.id}`);
-    //     }
-    // };
     const inputChangeHandler = async (option: IYoutubeSearchItem | string): Promise<void> => {
         if (typeof option === 'string' && option.trim() !== '') {
             try {
