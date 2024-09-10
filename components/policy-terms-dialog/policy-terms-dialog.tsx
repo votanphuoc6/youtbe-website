@@ -11,7 +11,6 @@ export default function PolicyTermsDialog(props: Props) {
         <div className={styles.host}>
             <div className={styles.consent}>
                 <div className={styles.consent__header}>
-                    <h1 className={'mat-h1'}><b>Youtube Clone</b></h1>
                 </div>
                 <div className={styles.consent__icon}>
                     <Image
@@ -23,10 +22,7 @@ export default function PolicyTermsDialog(props: Props) {
                 </div>
                 <div className={`${styles.consent__content} mat-subtitle-1`}>
                     <ul>
-                        <li>
-                            This app is for <b>EDUCATION PURPOSE ONLY.</b> It was built for illustrating one of the approaches to build
-                            Realworld Microfrontend app using Angular and Module Federation.
-                        </li>
+                    
                         <li>
                             <span>For real Youtube Experience, you should use </span>
                             <a href="https://www.youtube.com" target="_blank">www.youtube.com</a>
