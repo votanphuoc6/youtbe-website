@@ -27,7 +27,7 @@ export default function Dashboard() {
   return (
     <Fragment>
       <Dialog open={isPolicyDialogOpen}>
-        <PolicyTermsDialog handleClose={handleClose} />
+        {/* <PolicyTermsDialog handleClose={handleClose} /> */}
       </Dialog>
       {/* <Playground/> */}
       <BrowserVideos />
